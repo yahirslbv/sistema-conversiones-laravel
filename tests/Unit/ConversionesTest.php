@@ -4,13 +4,13 @@ namespace Tests\Unit;
 
 use PHPUnit\Framework\TestCase;
 use InvalidArgumentException;
-use App\ConversorMonedas;
-use App\ConversorTemperaturas;
-use App\ConversorUnidades;
-use App\CalculadoraDescuento;
-use App\ValidadorEdad;
-use App\ValidadorNumeros;
-use App\CalculadoraCalificaciones;
+use App\Service\ConversorMonedas;
+use App\Service\ConversorTemperaturas;
+use App\Service\ConversorUnidades;
+use App\Service\CalculadoraDescuento;
+use App\Service\ValidadorEdad;
+use App\Service\ValidadorNumeros;
+use App\Service\CalculadoraCalificaciones;
 
 class ConversionesTest extends TestCase
 {
